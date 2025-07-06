@@ -7,6 +7,9 @@ data = pd.DataFrame({
     'age': [28, 34, 25]
 })
 
+#added new row to my file 
+data.loc[len(data)] = ['Charlie', 'Tokyo', 25]
+
 
 foldn = "data"
 filen = "thedatafile.csv"
